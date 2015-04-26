@@ -1,0 +1,146 @@
+{
+	"bio": [
+		{
+			"title": "Birthday",
+			"rightTitle": "June 13, 1990"
+		},
+		{
+			"title": "Location",
+			"rightTitle": "Rancho Cucamonga, CA",
+            "link": "https://www.google.com/maps/place/Rancho+Cucamonga,+CA/@34.1239534,-117.557838,13z/data=!3m1!4b1!4m2!3m1!1s0x80c35bf938112791:0xad6a7aad82f2f34b"
+		},
+		{
+			"title": "About",
+			"bottomTitle": "I am a full-stack web developer. I have also done some work with mobile development on both Android and iOS. My technical experience consists of working for many different tech based start-ups and well known companies. In my free time, I like learn new technologies, watch sports, workout, hike, going to hackathons, and hang out with friends."
+		}
+	],
+	"experience":[
+		{
+			"title": "Spectoccular Labs, LLC",
+			"rightTitle": "Sept 2013 - Present",
+			"bottomTitle": "Lead Web Developer"
+		},
+		{
+			"title": "Kaiser Permanente",
+			"rightTitle": "June 2013 - Aug 2013",
+			"bottomTitle": "Mobile Development Intern"
+		},
+		{
+			"title": "Mice & Pen",
+			"rightTitle": "Sept 2012 - June 2013",
+			"bottomTitle": "Web Developer"
+		},
+		{
+			"title": "Ontraport",
+			"rightTitle": "June 2012 - Sept 2013",
+			"bottomTitle": "Software/QA Intern"
+		},
+		
+	],
+	"education":[
+		{
+			"title": "UC Santa Barbara",
+			"rightTitle": "2008-2012",
+			"bottomTitle": "B.S. Computer Science"
+		},
+		{
+			"title": "Cal Poly Pomona",
+			"rightTitle": "2013-2015",
+			"bottomTitle": "M.S. Computer Science"
+		}
+		
+	],
+    "skills":[
+        {
+            "title":"Programming Languages",
+            "bottomTitle":"PHP, HTML5, CSS3, SQL, JavaScript, Java, Python, Swift"
+        },
+        {
+            "title":"Frameworks",
+            "bottomTitle":"Bootstrap, jQuery, AngularJS, JSON, Ajax, CodeIgniter, ReST, Django, Wordpress"
+        },
+        {
+            "title":"Mobile",
+            "bottomTitle": "iOS (Swift), Android(Java)"
+        },
+        {
+            "title":"Databases",
+            "bottomTitle": "MySQL, PostgreSQL, Microsoft SQL, MongoDB"
+        },
+        {
+            "title":"Fluent In",
+            "bottomTitle": "English, Chinese (Mandarin)"
+        }
+    ],
+    
+	"projects":[
+		{
+			"title": "Foveology",
+			"rightTitle": "Personal",
+			"bottomTitle": "An interactive portfolio for David Chaum.",
+			"link": "http://www.foveology.com"
+		},
+		{
+			"title": "Test cURL",
+			"rightTitle": "CS 585",
+			"bottomTitle": "Python Scripts testing HTTP URLs.",
+			"link": "https://github.com/chenmeister/cs585-course-project-chensean"
+		},
+		{
+			"title": "commutr",
+			"rightTitle": "HackSC",
+			"bottomTitle": "An iOS app that gives options for commuters.",
+			"link": "http://challengepost.com/software/commutr"
+		},
+		{
+			"title": "Sobriety",
+			"rightTitle": "Hack The North",
+			"bottomTitle": "An Android app that provides alternative transportation for the intoxicated.",
+			"link": "http://challengepost.com/software/sobriety-sz3s"
+		},
+		{
+			"title": "HiddenList",
+			"rightTitle": "Hack UCI",
+			"bottomTitle": "A web app where the user can create a list by naming it with a unique title.",
+			"link": "http://challengepost.com/software/hiddenlist"
+		},
+		{
+			"title": "PolyRideshare",
+			"rightTitle": "Hack Poly",
+			"bottomTitle": "Carpool services for Cal Poly Pomona Students.",
+			"link": "http://challengepost.com/software/polyrideshare"
+		}
+	],
+	"contact":[
+		{
+			"title": "Phone",
+			"rightTitle": "(909) 510-0168",
+            "link": "tel://9095100168"
+		},
+		{
+			"title": "Email",
+			"rightTitle":"sean.chen909@gmail.com",
+            "link":"mailto:sean.chen909@gmail.com"
+		},
+        {
+            "title": "LinkedIn",
+            "rightTitle": "Profile",
+            "link": "https://www.linkedin.com/pub/sean-chen/13/51a/5b7"
+        },
+        {
+            "title": "Github",
+            "rightTitle": "chenmeister",
+            "link": "http://github.com/chenmeister"
+        },
+		{
+			"title": "Twitter",
+			"rightTitle": "@dachenmeister",
+            "link": "http://twitter.com/dachenmeister"
+		},
+		{
+			"title": "Instagram",
+			"rightTitle": "@dechenmeister",
+            "link": "http://instagram.com/dechenmeister"
+		}
+	]
+}
