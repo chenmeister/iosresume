@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		53C460F91AED6780004BE0FA /* LinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C460F81AED6780004BE0FA /* LinkViewController.swift */; };
+		53C702E81AED863600E26B9F /* JobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C702E71AED863600E26B9F /* JobViewController.swift */; };
 		53ED5E5A1AEC0EF500E52B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53ED5E581AEC0EF500E52B4E /* Main.storyboard */; };
 		53ED5E5C1AEC102C00E52B4E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ED5E5B1AEC102C00E52B4E /* DetailViewController.swift */; };
 		53ED5E5E1AEC579200E52B4E /* seanchen.json in Resources */ = {isa = PBXBuildFile; fileRef = 53ED5E5D1AEC579200E52B4E /* seanchen.json */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		53C460F81AED6780004BE0FA /* LinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkViewController.swift; sourceTree = "<group>"; };
+		53C702E71AED863600E26B9F /* JobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobViewController.swift; sourceTree = "<group>"; };
 		53ED5E591AEC0EF500E52B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53ED5E5B1AEC102C00E52B4E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		53ED5E5D1AEC579200E52B4E /* seanchen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seanchen.json; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				53F843141AEB621200FACD3C /* AppDelegate.swift */,
 				53F843161AEB621200FACD3C /* ViewController.swift */,
 				53ED5E5B1AEC102C00E52B4E /* DetailViewController.swift */,
+				53C702E71AED863600E26B9F /* JobViewController.swift */,
 				53C460F81AED6780004BE0FA /* LinkViewController.swift */,
 				53ED5E581AEC0EF500E52B4E /* Main.storyboard */,
 				53F8431B1AEB621200FACD3C /* Images.xcassets */,
@@ -225,6 +228,7 @@
 				53ED5E5C1AEC102C00E52B4E /* DetailViewController.swift in Sources */,
 				53F843171AEB621200FACD3C /* ViewController.swift in Sources */,
 				53F843151AEB621200FACD3C /* AppDelegate.swift in Sources */,
+				53C702E81AED863600E26B9F /* JobViewController.swift in Sources */,
 				53C460F91AED6780004BE0FA /* LinkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

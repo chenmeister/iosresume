@@ -21,7 +21,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WSs-Eh-ne6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1597" y="369"/>
+            <point key="canvasLocation" x="1883" y="131"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="HG4-fN-CVX">
@@ -152,11 +152,46 @@
                     <connections>
                         <outlet property="showInfo" destination="Wkl-ba-MxZ" id="RH0-VK-bff"/>
                         <segue destination="U3R-nV-LvJ" kind="show" identifier="showWebpage" id="XEZ-4f-vhU"/>
+                        <segue destination="zBd-Hf-mFs" kind="show" identifier="jobSegue" id="k7h-3P-Osr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="96D-eF-acI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1161" y="-371"/>
+        </scene>
+        <!--Job View Controller-->
+        <scene sceneID="ItG-IY-Uqp">
+            <objects>
+                <viewController title="Job View Controller" id="zBd-Hf-mFs" customClass="JobViewController" customModule="SeanChen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TFn-V1-cxy"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Ub-WD-4bm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ITn-i5-Bxv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VuL-eN-Q9o">
+                                <rect key="frame" x="20" y="84" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VuL-eN-Q9o" firstAttribute="top" secondItem="TFn-V1-cxy" secondAttribute="bottom" constant="20" id="Len-OV-GWb"/>
+                            <constraint firstAttribute="trailing" secondItem="VuL-eN-Q9o" secondAttribute="trailing" constant="20" id="SFV-Yg-8TE"/>
+                            <constraint firstItem="VuL-eN-Q9o" firstAttribute="leading" secondItem="ITn-i5-Bxv" secondAttribute="leading" constant="20" id="k8N-NH-amq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="VuL-eN-Q9o" id="ThI-jg-yKa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="la9-sh-CDx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1883" y="-604"/>
         </scene>
         <!--Main View-->
         <scene sceneID="aaK-n5-1Hw">

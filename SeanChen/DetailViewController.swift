@@ -12,6 +12,9 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
     var sectionToDisplay:String?
     var linkProject:String?
+    var jobDescription:String?
+    var companyName:String?
+    var projectName:String?
     var arrDict:NSMutableArray = []
     
     
@@ -33,8 +36,6 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // Get array based on item clicked
         self.parseJsonResults()
         self.showInfo.reloadData()
-        
-        
         
     }
 
@@ -133,7 +134,9 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let sumLabel:UILabel? = cell.viewWithTag(3) as! UILabel?
         
         if let actualMainLabel = mainLabel {
-            if self.arrDict[indexPath.row].valueForKey("link") != nil {
+            let linkKey = self.arrDict[indexPath.row].valueForKey("link")
+            let descKey = self.arrDict[indexPath.row].valueForKey("description")
+            if linkKey != nil || descKey != nil {
                 actualMainLabel.textColor = UIColor.blueColor()
             }
             actualMainLabel.text = self.arrDict[indexPath.row].valueForKey("title") as? String
@@ -165,6 +168,16 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
             self.performSegueWithIdentifier("showWebpage", sender: self)
         }
         
+        if sectionToDisplay.self == "Projects" {
+            self.projectName = self.arrDict[indexPath.row].valueForKey("title") as? String
+        }
+        
+        if sectionToDisplay.self == "Experience" {
+            self.companyName = self.arrDict[indexPath.row].valueForKey("title") as? String
+            self.jobDescription = self.arrDict[indexPath.row].valueForKey("description") as? String
+            self.performSegueWithIdentifier("jobSegue", sender: self)
+        }
+        
         
     }
 
@@ -173,11 +186,25 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        let linkVC = segue.destinationViewController as! LinkViewController
         
-        // Pass the selected object to the new view controller.
-        linkVC.linkToDisplay = self.linkProject
+        // Get the new view controller using segue.destinationViewController.
+        if self.linkProject != nil {
+            
+            
+            let linkVC = segue.destinationViewController as! LinkViewController
+        
+            // Pass the selected object to the new view controller.
+            linkVC.linkToDisplay = self.linkProject
+        }
+        
+        if sectionToDisplay.self == "Experience" {
+            let jobVC = segue.destinationViewController as! JobViewController
+            
+            jobVC.companyName = self.companyName
+            jobVC.jobDescription = self.jobDescription
+            
+        }
+        
     }
     
 

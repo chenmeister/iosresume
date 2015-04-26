@@ -16,24 +16,28 @@
 	],
 	"experience":[
 		{
-			"title": "Spectoccular Labs, LLC",
+			"title": "Spectoccular Labs",
 			"rightTitle": "Sept 2013 - Present",
-			"bottomTitle": "Lead Web Developer"
+			"bottomTitle": "Lead Web Developer",
+            "description": "Designed, Maintained, and Refurbished company website and database from static to dynamic based implementation using data-driven techniques.\n\nCreated admin page where superuser can add, edit, modify, and remove categories and columns.\n\nResearched different web frameworks, developed prototypes, maintained company web servers, and updated user interface by making it user friendly for visitors."
 		},
 		{
 			"title": "Kaiser Permanente",
 			"rightTitle": "June 2013 - Aug 2013",
-			"bottomTitle": "Mobile Development Intern"
+            "bottomTitle": "Mobile Development Intern",
+            "description": "Created a Community Benefit Mobile Application, which allows internal employees to enter hours and track progress for community benefit events.\n\nGained public speaking and presentation skills by presenting to CIO Phil Fasano on Social Media and its Impact on Healthcare.\n\nShared progress with managers during weekly meetings and presented to the management team about my overall internship experience."
 		},
 		{
 			"title": "Mice & Pen",
 			"rightTitle": "Sept 2012 - June 2013",
-			"bottomTitle": "Web Developer"
+            "bottomTitle": "Web Developer",
+            "description": "Created websites from scratch based on client’s requirements.\n\nUpdated client’s website with new information, improved layouts, and added new features to help improve the aesthetics and user experience."
 		},
 		{
 			"title": "Ontraport",
 			"rightTitle": "June 2012 - Sept 2013",
-			"bottomTitle": "Software/QA Intern"
+            "bottomTitle": "Software/QA Intern",
+            "description": "Tested a variety of features on Office Autopilot using Selenium IDE and wrote windows batch scripts to run multiple tests automatically.\n\nTeamed with other interns to write an efficient master script in PHPUnit that covers all the UI features for Office Autopilot."
 		},
 		
 	],

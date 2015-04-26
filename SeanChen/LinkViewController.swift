@@ -16,10 +16,11 @@ class LinkViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+
     }
     
     override func viewDidAppear(animated: Bool) {
+
         // Check if there's an link to display
         if let actualLinkToDiplay = self.linkToDisplay {
             // Create NSURL for the article URL
@@ -35,6 +36,7 @@ class LinkViewController: UIViewController {
             }
             
         }
+        
     }
 
     override func didReceiveMemoryWarning() {
